@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      This is practice session of script.147
+      This is practice session of script. its time of party.
     </div>
   );
 }
