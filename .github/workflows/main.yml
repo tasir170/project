@@ -31,7 +31,11 @@ steps:
   with:
    # yarn command
    cmd: install
- - name: installing surge
-   run: npm install -g surge
- - name: deploying on surge
-   run: surge ./build http://damaging-pear.surge.sh  --token "8a4e92e11e835a5b1b562c8123098dad"
+- name: creating build
+  run: yarn build 
+  
+- name : installing surge
+  run: npm install -g surge
+   
+- name: deploying on surge
+  run: surge ./build http://damaging-pear.surge.sh  --token "8a4e92e11e835a5b1b562c8123098dad"
