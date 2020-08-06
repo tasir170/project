@@ -21,7 +21,6 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
 - name: Setup Node.js environment
   uses: actions/setup-node@v2-beta
   with:
@@ -34,4 +33,4 @@ jobs:
  - name: installing surge
    run: npm install -g surge
  - name: deploying on surge
-   run: surge ./build http://damaging-pear.surge.sh  --token"8a4e92e11e835a5b1b562c8123098dad"
+   run: surge ./build http://damaging-pear.surge.sh  --token "8a4e92e11e835a5b1b562c8123098dad"
