@@ -4,6 +4,7 @@ function Dinner (){
         <div>
         <h1> today we are severing biryani </h1>
         <h1> today we are severing karahi </h1>
+        <h1> today we are severing seet dish </h1>
     </div>
         )
 
