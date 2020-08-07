@@ -1,5 +1,5 @@
 import React from 'react';
-function Dinner {}{
+function Dinner (){
     return(
         <div>
         <h1> today we are severing biryani </h1>
